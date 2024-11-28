@@ -68,12 +68,13 @@ I am already using 5000 for Jekyll and 5001 for Docusaurus.
   * Description: "251docs"
   * Public
   * Add README.md
+  * Add .gitignore: Python (temporary)
   * Choose any free LICENSE
   * See also <https://doit.vlsm.org/030.html>
 * Create a GitHub page.
-  * Choose branch: gh-pages.
+  * (Create branch: gh-pages), apparently will automatically create a GitHub Page?!
   * See also <https://doit.vlsm.org/031.html>
-* CLONE Your GitHub Repo. E.g.
+* CLONE Your GitHub Repo on VirtualBox. E.g.
 
 ```
 git clone git@github.com:cbkadal/251docs.git
