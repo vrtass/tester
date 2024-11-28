@@ -10,6 +10,7 @@
 * [CLONE Your GitHub Repo on VirtualBox](#idx004)
 * [File .gitignore](#idx005)
 * [Check Python, Pip, and Venv](#idx006)
+* [Python Virtual Environment](#idx007)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -92,7 +93,7 @@ sudo apt-get install $DEBS -y
 
 [&#x213C;](#)<br id="idx004">
 ## CLONE Your GitHub Repo on VirtualBox
-* E.g.
+* E.g. repo "251docs/"
 
 ```
 git clone git@github.com:cbkadal/251docs.git
@@ -121,7 +122,7 @@ python -m venv --help
 
 ```
 
-[&#x213C;](#)<br id="idx005">
+[&#x213C;](#)<br id="idx007">
 ## Python Virtual Environment
 
 ```
