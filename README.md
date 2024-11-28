@@ -1,7 +1,7 @@
 ---
 ---
 ```
-REVISI: Thu 28 Nov 2024 19:00
+REVISI: Thu 28 Nov 2024 20:00
 REVISI: Tue 26 Nov 2024 18:00
 STARTX: Tue 26 Nov 2024 12:00
 ```
@@ -51,12 +51,18 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 # Build the MkDocs site
 mkdocs build
 
-# Create and switch to the gh-pages branch
+# Create and switch to a clean gh-pages branch for the first time
 git checkout --orphan gh-pages
+
+# Switch to a clean gh-pages branch
+git checkout gh-pages
+
 
 # Remove all files from the gh-pages branch:
 git rm -rf .
-cp -r site/* .
+cp -rv site/* ../
+cd ../
+git rm -rf docs/
 git add .
 git commit -m "Deploy MkDocs site"
 git push origin gh-pages
