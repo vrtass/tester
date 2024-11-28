@@ -45,6 +45,24 @@ mkdir -pv docs/
 cd docs/
 mkdocs new .
 
-# Start from VirtualBox
+# Test from VirtualBox
 mkdocs serve --dev-addr=0.0.0.0:8000
+
+# Build the MkDocs site
+mkdocs build
+
+# Create and switch to the gh-pages branch
+git checkout --orphan gh-pages
+
+# Remove all files from the gh-pages branch:
+git rm -rf .
+cp -r site/* .
+git add .
+git commit -m "Deploy MkDocs site"
+git push origin gh-pages
+
+
+
+
+
 
