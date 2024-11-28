@@ -11,6 +11,7 @@
 * [File .gitignore](#idx005)
 * [Check Python, Pip, and Venv](#idx006)
 * [Python Virtual Environment](#idx007)
+* [Activate the virtual environment](#idx008)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -132,12 +133,22 @@ mkdir -pv ~/.virtualenvs/
 # Create a virtual environment
 python3 -m venv ~/.virtualenvs/$(basename $(pwd))
 
-# Activate the virtual environment
+```
+
+[&#x213C;](#)<br id="idx008">
+## Activate the virtual environment
+* Before working with "MkDocs", always activate the virtual environment!
+
+```
 source ~/.virtualenvs/$(basename $(pwd))/bin/activate
 
-# Upgrading the virtual environment’s pip
-~/.virtualenvs/$(basename $(pwd))/bin/python -m pip install --upgrade pip
+```
 
+* And upgrading PIP inside the virtual environment
+
+```
+# Upgrade
+~/.virtualenvs/$(basename $(pwd))/bin/python -m pip install --upgrade pip
 # Check the version
 pip --version
 
@@ -151,9 +162,6 @@ pip --version
 
 
 
-
-# CREATE AND CLONE REPO
-git clone REPO
 
 
 # install MkDocs and additional MkDocs plugins
