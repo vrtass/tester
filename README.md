@@ -11,7 +11,13 @@
 * [File .gitignore](#idx005)
 * [Check Python, Pip, and Venv](#idx006)
 * [Python Virtual Environment](#idx007)
-* [Activate the virtual environment](#idx008)
+* [Activate the Virtual Environment](#idx008)
+* [MkDocs and Plugins](#idx009)
+* [MkDocs inside folder "docs/"](#idx010)
+* [Test from VirtualBox](#idx011)
+* [Build the MkDocs site](#idx012)
+* [Clean new gh-pages branch](#idx013)
+* [Switch to a clean gh-pages branch](#idx13a)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -130,13 +136,13 @@ python -m venv --help
 # A centralized ".virtualenvs/" directory
 mkdir -pv ~/.virtualenvs/
 
-# Create a virtual environment
+# Create a Virtual Environment
 python3 -m venv ~/.virtualenvs/$(basename $(pwd))
 
 ```
 
 [&#x213C;](#)<br id="idx008">
-## Activate the virtual environment
+## Activate the Virtual Environment
 * Before working with "MkDocs", always activate the virtual environment!
 
 ```
@@ -144,7 +150,7 @@ source ~/.virtualenvs/$(basename $(pwd))/bin/activate
 
 ```
 
-* And upgrading PIP inside the virtual environment
+* And upgrading PIP inside the Virtual Environment
 
 ```
 # Upgrade
@@ -154,44 +160,77 @@ pip --version
 
 ```
 
+[&#x213C;](#)<br id="idx009">
+## Install MkDocs and additional MkDocs plugins
 
-
-
-
-### XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-
-
-
-
-# install MkDocs and additional MkDocs plugins
+```
 pip install mkdocs mkdocs-material
 
-# Clean UP
-pip cache purge
+```
 
-# Verify Version
+* Clean Up and Verify Version
+
+```
+pip cache purge
 mkdocs --version
 
-# Create a docs/ Directory
+```
+
+[&#x213C;](#)<br id="idx010">
+## MkDocs inside folder "docs/"
+
+```
 mkdir -pv docs/
 cd docs/
 mkdocs new .
 
-# Test from VirtualBox
+```
+
+[&#x213C;](#)<br id="idx011">
+## Test from VirtualBox
+
+```
 mkdocs serve --dev-addr=0.0.0.0:8000
 
-# Build the MkDocs site
+```
+
+* Check it out at "localhost:4999" (HOST)
+
+[&#x213C;](#)<br id="idx012">
+## Build the MkDocs site
+* Build it everytime you want to push it to GitHub Page.
+
+```
 mkdocs build
 
-# Create and switch to a clean gh-pages branch for the first time
+```
+
+[&#x213C;](#)<br id="idx013">
+## Clean new gh-pages branch
+
+* Create and switch to a clean gh-pages branch for the first time
+  * ONE TIME ONLY!
+
+```
 git checkout --orphan gh-pages
 
-# Switch to a clean gh-pages branch
+```
+
+[&#x213C;](#)<br id="idx013a">
+
+### Switch to a clean gh-pages branch
+
+* Other times
+
+```
 git checkout gh-pages
 
+```
 
-# Remove all files from the gh-pages branch:
+[&#x213C;](#)<br id="idx014">
+## Remove all files from the gh-pages branch:
+
+```
 git rm -rf .
 cp -rv site/* ../
 cd ../
@@ -200,14 +239,12 @@ git add .
 git commit -m "Deploy MkDocs site"
 git push origin gh-pages
 
-
-
-
+```
 
 <hr>
 
 ```
-REVISI: Thu 28 Nov 2024 22:00
+REVISI: Thu 28 Nov 2024 23:00
 REVISI: Tue 26 Nov 2024 18:00
 STARTX: Tue 26 Nov 2024 12:00
 ```
