@@ -3,6 +3,8 @@
 [&#x213C;](#idxXXX)<br id="idx000">
 ## Table of Content (Toc)
 * [Network Address Translation (NAT) Settings](#idx001)
+  * [VirtualBox](#idx001)
+  * [UTM](#idx001a)
 * [GitHub Repo 251docs](#idx002a)
   * [File .gitignore](#idx002)
 * [Debian Packages](#idx003)
@@ -36,6 +38,8 @@ I am already using 5000 for Jekyll and 5001 for Docusaurus.
       * 127.0.0.1:4999 (Host) --- 10.0.2.15:8000 (Guest)
 
 <br><img src="images/VBOX-NAT.jpg"  width="960"><br>
+
+[&#x213C;](#)<br id="idx001a">
 
 ### UTM
 
