@@ -229,7 +229,8 @@ git checkout gh-pages
 ```
 
 [&#x213C;](#)<br id="idx014">
-## Remove all files from the gh-pages branch:
+## Clean gh-pages branch:
+* Remove all except move "site/*" one level.
 
 ```
 git rm -rf .
