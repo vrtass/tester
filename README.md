@@ -243,7 +243,7 @@ git push origin gh-pages
 
 ```
 
-* Checkit out at <https://>, but your are not CBKADAL!
+* Checkit out at <https://cbkadal.github.io/251docs/>, but your are not CBKADAL!
 
 <hr>
 
