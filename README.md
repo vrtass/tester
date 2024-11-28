@@ -5,10 +5,11 @@
 * [Network Address Translation (NAT) Settings](#idx001)
   * [VirtualBox](#idx001)
   * [UTM](#idx001a)
-* [GitHub Repo 251docs](#idx002a)
-  * [File .gitignore](#idx002)
+* [GitHub Repo 251docs](#idx002)
 * [Debian Packages](#idx003)
-* [Check Python, Pip, and Venv](#idx004)
+* [CLONE Your GitHub Repo on VirtualBox](#idx004)
+* [File .gitignore](#idx005)
+* [Check Python, Pip, and Venv](#idx006)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -48,7 +49,7 @@ I am already using 5000 for Jekyll and 5001 for Docusaurus.
 
 <br><img src="images/debM1-forward.jpg"  width="960"><br>
 
-[&#x213C;](#)<br id="idx002a">
+[&#x213C;](#)<br id="idx002">
 ## GitHub Repo 251docs
 
 * Create a new [GitHub](https://github.com/) repo.
@@ -63,24 +64,9 @@ I am already using 5000 for Jekyll and 5001 for Docusaurus.
 * Create a GitHub page.
   * (Create branch: gh-pages), apparently will automatically create a GitHub Page?!
   * See also <https://doit.vlsm.org/031.html>
-* CLONE Your GitHub Repo on VirtualBox. E.g.
-
-```
-git clone git@github.com:cbkadal/251docs.git
-
-```
-* REMEMBER: You are not **CBKADAL**!
-* Write your memo on file "README.md".
-  * Update/push "README.md" regularly.
-
-[&#x213C;](#)<br id="idx002">
-### File .gitignore
-
-Copy the following into your .gitignore file:
-https://raw.githubusercontent.com/cbkadal/251docs/master/.gitignore
 
 [&#x213C;](#)<br id="idx003">
-## Debian Packages (root)
+## Debian Packages
 
 Make sure the following Debian packages are present in your system.
 
@@ -105,6 +91,27 @@ sudo apt-get install $DEBS -y
 ```
 
 [&#x213C;](#)<br id="idx004">
+## CLONE Your GitHub Repo on VirtualBox
+* E.g.
+
+```
+git clone git@github.com:cbkadal/251docs.git
+cd 251docs/
+
+```
+* REMEMBER: You are not **CBKADAL**!
+* Write your memo on file "README.md".
+  * Update/push "README.md" regularly.
+
+[&#x213C;](#)<br id="idx005">
+### File .gitignore
+
+If you still not, go to (cd) repo "251docs/".
+Copy the following into your .gitignore file:
+https://raw.githubusercontent.com/cbkadal/251docs/master/.gitignore
+
+
+[&#x213C;](#)<br id="idx006">
 ## Check Python, Pip, and Venv
 
 ```
@@ -114,16 +121,10 @@ python -m venv --help
 
 ```
 
+[&#x213C;](#)<br id="idx005">
+## Python Virtual Environment
 
-
-### XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
-
-
-
-# CREATE AND CLONE REPO
-git clone REPO
-
+```
 # A centralized ".virtualenvs/" directory
 mkdir -pv ~/.virtualenvs/
 
@@ -138,6 +139,21 @@ source ~/.virtualenvs/$(basename $(pwd))/bin/activate
 
 # Check the version
 pip --version
+
+```
+
+
+
+
+
+### XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+# CREATE AND CLONE REPO
+git clone REPO
+
 
 # install MkDocs and additional MkDocs plugins
 pip install mkdocs mkdocs-material
