@@ -17,7 +17,8 @@
 * [Test from VirtualBox](#idx011)
 * [Build the MkDocs site](#idx012)
 * [Clean new gh-pages branch](#idx013)
-* [Switch to a clean gh-pages branch](#idx13a)
+  * [Switch to a clean gh-pages branch](#idx013a)
+* [Switch to a clean gh-pages branch](#idx014)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -240,6 +241,8 @@ git commit -m "Deploy MkDocs site"
 git push origin gh-pages
 
 ```
+
+* Checkit out at <https://>, but your are not CBKADAL!
 
 <hr>
 
