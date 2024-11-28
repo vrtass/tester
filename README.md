@@ -87,9 +87,7 @@ git clone git@github.com:cbkadal/251docs.git
 [&#x213C;](#)<br id="idx002">
 ### File .gitignore
 
-Don't push the node.js files to GitHub! 
-If you missed the .gitignore file option during the repo initialization process, 
-copy the following into your .gitignore file:
+Copy the following into your .gitignore file:
 https://raw.githubusercontent.com/cbkadal/251docs/master/.gitignore
 
 [&#x213C;](#)<br id="idx003">
@@ -98,7 +96,7 @@ https://raw.githubusercontent.com/cbkadal/251docs/master/.gitignore
 Make sure the following Debian packages are present in your system.
 
 ```
-# ROOT privilege.
+# USER privilege.
 export DEBS="
 aptitude
 build-essential
@@ -113,7 +111,7 @@ sudo
 vim
 "
 date;
-time apt-get install $DEBS -y
+sudo apt-get install $DEBS -y
 
 ```
 
