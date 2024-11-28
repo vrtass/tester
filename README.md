@@ -8,6 +8,7 @@
 * [GitHub Repo 251docs](#idx002a)
   * [File .gitignore](#idx002)
 * [Debian Packages](#idx003)
+* [Check Python, Pip, and Venv](#idx004)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -103,16 +104,22 @@ sudo apt-get install $DEBS -y
 
 ```
 
+[&#x213C;](#)<br id="idx004">
+## Check Python, Pip, and Venv
 
-
-### ########################################################
-
-
-sudo apt install -y \
-
+```
 python --version
 pip --version
 python -m venv --help
+
+```
+
+
+
+### XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
 
 # CREATE AND CLONE REPO
 git clone REPO
