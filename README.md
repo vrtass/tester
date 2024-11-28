@@ -45,14 +45,6 @@ mkdir -pv docs/
 cd docs/
 mkdocs new .
 
-# Start
-mkdocs serve
-
-
-
-
-
-pip show mkdocs
-
-cd my-project
+# Start from VirtualBox
+mkdocs serve --dev-addr=0.0.0.0:8000
 
