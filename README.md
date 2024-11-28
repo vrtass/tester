@@ -68,8 +68,11 @@ I am already using 5000 for Jekyll and 5001 for Docusaurus.
   * Description: "251docs"
   * Public
   * Add README.md
-  * Add .gitignore: NODE
   * Choose any free LICENSE
+  * See also <https://doit.vlsm.org/030.html>
+* Create a GitHub page.
+  * Choose branch: gh-pages.
+  * See also <https://doit.vlsm.org/031.html>
 * CLONE Your GitHub Repo. E.g.
 
 ```
