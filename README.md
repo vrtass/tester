@@ -267,6 +267,7 @@ site_name: TESTER
 nav:
   - Home: index.md
   - About: about.md
+theme: readthedocs
 
 ```
 
