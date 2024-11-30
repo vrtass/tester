@@ -1,11 +1,11 @@
-# 251docs by BinKadal, Sdn, Bhd.
+# tester by VRTASS!
 
 [&#x213C;](#idxXXX)<br id="idx000">
 ## Table of Content (Toc)
 * [Network Address Translation (NAT) Settings](#idx001)
   * [VirtualBox](#idx001)
   * [UTM](#idx001a)
-* [GitHub Repo 251docs](#idx002)
+* [GitHub Repo tester](#idx002)
 * [Debian Packages](#idx003)
 * [CLONE Your GitHub Repo on VirtualBox](#idx004)
 * [File .gitignore](#idx005)
@@ -14,10 +14,10 @@
 * [Activate the Virtual Environment](#idx008)
 * [MkDocs and Plugins](#idx009)
 * [MkDocs inside folder "docs/"](#idx010)
-* [Test from VirtualBox](#idx011)
-* [Build the MkDocs site](#idx012)
-* [Switch to gh-pages branch](#idx013)
-* [Switch to a clean gh-pages branch](#idx014)
+* [File: "mkdocs.yml"](#idx11)
+* [Test from VirtualBox](#idx012)
+* [Build the MkDocs site](#idx013)
+* [Switch to gh-pages branch and back to master](#idx014)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -58,12 +58,12 @@ I am already using 5000 for Jekyll and 5001 for Docusaurus.
 <br><img src="images/debM1-forward.jpg"  width="960"><br>
 
 [&#x213C;](#)<br id="idx002">
-## GitHub Repo 251docs
+## GitHub Repo tester
 
 * Create a new [GitHub](https://github.com/) repo.
   * New Repository
-  * Repository Name: "251docs"
-  * Description: "251docs"
+  * Repository Name: "tester"
+  * Description: "tester"
   * Public
   * Add README.md
   * Add .gitignore: Python (temporary)
@@ -93,30 +93,114 @@ python3-venv
 sudo
 vim
 "
-date;
-sudo apt-get install $DEBS -y
+time sudo apt-get install $DEBS -y
+date
 
 ```
 
 [&#x213C;](#)<br id="idx004">
 ## CLONE Your GitHub Repo on VirtualBox
-* E.g. repo "251docs/"
+* E.g. repo "tester/"
 
 ```
-git clone git@github.com:cbkadal/251docs.git
-cd 251docs/
+# YOU ARE NOT VRTASS!
+GITHUB="vrtass"
+
+REPO="tester"
+git clone git@github.com:$GITHUB/$REPO.git
+cd $REPO/
 
 ```
-* REMEMBER: You are not **CBKADAL**!
+* REMEMBER: You are not **VRTASS**!
 * Write your memo on file "README.md".
   * Update/push "README.md" regularly.
 
 [&#x213C;](#)<br id="idx005">
 ### File .gitignore
 
-If you still not, go to (cd) repo "251docs/".
+If you still not, go to (cd) repo "tester/".
 Copy the following into your .gitignore file:
-https://raw.githubusercontent.com/cbkadal/251docs/master/.gitignore
+
+```
+# REVISI: Fri 29 Nov 2024 16:00
+# STARTX: Thu 28 Nov 2024 17:00
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+node_modules/
+parts/
+sdist/
+var/
+package*.json
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+
+# Unit test / coverage reports
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Virtualenv
+venv/
+ENV/
+
+# MkDocs documentation
+site*/
+
+# Translations
+*.mo
+
+# Scrapy stuff:
+.scrapy
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Miscellaneous
+.mkdocs-env/
+*.tmp
+.DS_Store
+*.swp
+
+```
+
 
 
 [&#x213C;](#)<br id="idx006">
@@ -150,29 +234,17 @@ source ~/.virtualenvs/$(basename $(pwd))/bin/activate
 
 ```
 
-* And upgrading PIP inside the Virtual Environment
-
-```
-# Upgrade
-~/.virtualenvs/$(basename $(pwd))/bin/python -m pip install --upgrade pip
-# Check the version
-pip --version
-
-```
-
 [&#x213C;](#)<br id="idx009">
 ## Install MkDocs and additional MkDocs plugins
 
-```
-pip install mkdocs mkdocs-material
+* Upgrade, Clean Up, and Verify Version
 
 ```
-
-* Clean Up and Verify Version
-
-```
-pip cache purge
+pip install --upgrade pip mkdocs mkdocs-material
+echo "= ======================================="
+pip --version
 mkdocs --version
+pip cache purge
 
 ```
 
@@ -187,56 +259,59 @@ mkdocs new .
 ```
 
 [&#x213C;](#)<br id="idx011">
+## File: mkdocs.yml 
+
+```
+site_name: 252docs
+
+```
+
+
+[&#x213C;](#)<br id="idx012">
 ## Test from VirtualBox
+
+* Check it out at "localhost:4999" (HOST)
 
 ```
 mkdocs serve --dev-addr=0.0.0.0:8000
 
 ```
 
-* Check it out at "localhost:4999" (HOST)
-
-[&#x213C;](#)<br id="idx012">
-## Build the MkDocs site
-* Build it everytime you want to push it to GitHub Page.
-
-```
-mkdocs build
-
-```
-
 [&#x213C;](#)<br id="idx013">
-
-### Switch to gh-pages branch
+## Build the MkDocs site
+* Build, commit, and push (master)
 
 ```
-git pull origin gh-pages
-git checkout gh-pages
+git add .
+git commit -m "Save uncommitted changes"
+git push
 
 ```
 
 [&#x213C;](#)<br id="idx014">
-## Clean gh-pages branch:
-* Remove all except move "site/*" one level.
+## Deploy
 
 ```
-git rm -rf .
-cp -rv site/* ../
-cd ../
-git rm -rf docs/
+mkdocs gh-deploy --force --clean
+git checkout gh-pages
+echo "Checkit out at <https://cbkadal.github.io/tester/>, but your are not VRTASS!" > README.md
 git add .
-git commit -m "Deploy MkDocs site"
+git commit -m "Include a README.md in gh-pages"
 git push origin gh-pages
+git checkout master
 
 ```
 
-* Checkit out at <https://cbkadal.github.io/251docs/>, but your are not CBKADAL!
+* Checkit out at <https://cbkadal.github.io/tester/>, but your are not VRTASS!
 
 <hr>
 
 ```
-REVISI: Thu 28 Nov 2024 23:00
-REVISI: Tue 26 Nov 2024 18:00
+REVISI: Sun 01 Dec 2024 00:00
+REVISI: Fri 29 Nov 2024 19:02
+REVISI: Fri 29 Nov 2024 18:00
+REVISI: Fri 29 Nov 2024 17:08
+REVISI: Fri 29 Nov 2024 14:04
 STARTX: Tue 26 Nov 2024 12:00
 ```
 

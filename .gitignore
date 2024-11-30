@@ -1,3 +1,5 @@
+# REVISI: Sun 01 Dec 2024 00:00
+# REVISI: Fri 29 Nov 2024 19:00
 # REVISI: Thu 28 Nov 2024 21:00
 # STARTX: Thu 28 Nov 2024 17:00
 # (c) 2024-2024 BinKadal, Sdn. Bhd.
@@ -12,17 +14,32 @@ __pycache__/
 .Python
 env/
 build/
+develop-eggs/
 dist/
+downloads/
 eggs/
 .eggs/
+lib/
+lib64/
+node_modules/
+parts/
+sdist/
+var/
+package*.json
 *.egg-info/
 .installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
 
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 *.log
 
+# Unit test / coverage reports
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -39,7 +56,22 @@ venv/
 ENV/
 
 # MkDocs documentation
-site/
+site*/
+
+# Translations
+*.mo
+
+# Scrapy stuff:
+.scrapy
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
 
 # Miscellaneous
 .mkdocs-env/
