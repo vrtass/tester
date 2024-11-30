@@ -294,7 +294,7 @@ git push
 ```
 mkdocs gh-deploy --force --clean
 git checkout gh-pages
-echo "Checkit out at <https://cbkadal.github.io/tester/>, but your are not VRTASS!" > README.md
+echo "Checkit out at <https://vrtass.github.io/tester/>, but your are not VRTASS!" > README.md
 git add .
 git commit -m "Include a README.md in gh-pages"
 git push origin gh-pages
@@ -302,7 +302,7 @@ git checkout master
 
 ```
 
-* Checkit out at <https://cbkadal.github.io/tester/>, but your are not VRTASS!
+* Checkit out at <https://vrtass.github.io/tester/>, but your are not VRTASS!
 
 <hr>
 
