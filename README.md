@@ -16,8 +16,7 @@
 * [MkDocs inside folder "docs/"](#idx010)
 * [Test from VirtualBox](#idx011)
 * [Build the MkDocs site](#idx012)
-* [Clean new gh-pages branch](#idx013)
-  * [Switch to a clean gh-pages branch](#idx013a)
+* [Switch to gh-pages branch](#idx013)
 * [Switch to a clean gh-pages branch](#idx014)
 
 [&#x213C;](#)<br id="idx001">
@@ -207,23 +206,11 @@ mkdocs build
 ```
 
 [&#x213C;](#)<br id="idx013">
-## Clean new gh-pages branch
 
-* Create and switch to a clean gh-pages branch for the first time
-  * ONE TIME ONLY!
+### Switch to gh-pages branch
 
 ```
-git checkout --orphan gh-pages
-
-```
-
-[&#x213C;](#)<br id="idx013a">
-
-### Switch to a clean gh-pages branch
-
-* Other times
-
-```
+git pull origin gh-pages
 git checkout gh-pages
 
 ```
