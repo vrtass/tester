@@ -92,6 +92,7 @@ python3-pip
 python3-venv
 sudo
 vim
+wget
 "
 time sudo apt-get install $DEBS -y
 date
@@ -262,10 +263,19 @@ mkdocs new .
 ## File: mkdocs.yml 
 
 ```
-site_name: 252docs
+site_name: TESTER
+nav:
+  - Home: index.md
+  - About: about.md
 
 ```
 
+* File about.md
+
+```
+wget -O docs/about.md 'https://jaspervdj.be/lorem-markdownum/markdown.txt'
+
+```
 
 [&#x213C;](#)<br id="idx012">
 ## Test from VirtualBox
@@ -307,7 +317,7 @@ git checkout master
 <hr>
 
 ```
-REVISI: Sun 01 Dec 2024 00:00
+REVISI: Sun 01 Dec 2024 01:00
 REVISI: Fri 29 Nov 2024 19:02
 REVISI: Fri 29 Nov 2024 18:00
 REVISI: Fri 29 Nov 2024 17:08
