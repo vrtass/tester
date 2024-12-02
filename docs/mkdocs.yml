@@ -1,6 +1,8 @@
 site_name: MkDocs Tester
+site_url: https://vrtass.github.io/tester/
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
+theme:
+  name: material
 
