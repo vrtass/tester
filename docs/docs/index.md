@@ -25,6 +25,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * [Supporting Materials](https://github.com/james-willett/material-mkdocs-youtube-2024)
 
 ```
+REVISI: Mon 02 Dec 2024 21:00
 REVISI: Mon 02 Dec 2024 20:00
 REVISI: Sun 01 Dec 2024 01:01
 STARTX: Sun 01 Dec 2024 01:00
