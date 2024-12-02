@@ -1,4 +1,4 @@
-site_name: TESTER
+site_name: MkDocs Tester
 nav:
   - Home: index.md
   - About: about.md
