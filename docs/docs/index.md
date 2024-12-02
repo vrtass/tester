@@ -16,7 +16,13 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+## Links
+
+* [Getting Started with Material for MkDocs](https://jameswillett.dev/getting-started-with-material-for-mkdocs/)
+  * [YouTube](https://youtu.be/xlABhbnNrfI)
+
 ```
+REVISI: Mon 02 Dec 2024 20:00
 REVISI: Sun 01 Dec 2024 01:01
 STARTX: Sun 01 Dec 2024 01:00
 ```
