@@ -20,6 +20,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 * [Getting Started with Material for MkDocs](https://jameswillett.dev/getting-started-with-material-for-mkdocs/)
   * [YouTube](https://youtu.be/xlABhbnNrfI)
+  * [Supporting Materials](https://github.com/james-willett/material-mkdocs-youtube-2024)
 
 ```
 REVISI: Mon 02 Dec 2024 20:00
