@@ -335,9 +335,8 @@ echo "# About" > docs/about.md
 
 ```
 
-* Assets 
-
-
+* Assets: docs/assets/{favicon.ico,logo.jpg}
+ 
 [&#x213C;](#)<br id="idx012">
 ## Test from VirtualBox
 
@@ -379,7 +378,7 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 <hr>
 
 ```
-REVISI: Tue 03 Dec 2024 10:00
+REVISI: Tue 03 Dec 2024 11:00
 REVISI: Sun 01 Dec 2024 22:00
 REVISI: Fri 29 Nov 2024 19:02
 REVISI: Fri 29 Nov 2024 18:00
