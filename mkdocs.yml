@@ -71,13 +71,14 @@ extra:
            on VirtualBox.
     keywords: "keyword1, keyword2"
     author: "BinKadak, Sdn. Bhd."
-
+  custom_variable: "This is a custom variable from mkdocs.yml"
 
 plugins:
   - awesome-pages
   - include-markdown
-  - macro
+  - macros
 
+# REVISI: Tue 03 Dec 2024 15:00
 # REVISI: Tue 03 Dec 2024 14:00
 # REVISI: Tue 03 Dec 2024 12:00
 # REVISI: Tue 03 Dec 2024 10:00

@@ -1,6 +1,7 @@
 # MkDocs for a Virtual Debian Guest on VirtualBox
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The value of the custom variable is: {{ custom_variable }}.
 
 ## Commands
 
