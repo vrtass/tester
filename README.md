@@ -250,11 +250,10 @@ pip cache purge
 ```
 
 [&#x213C;](#)<br id="idx010">
-## MkDocs inside folder "docs/"
+## MkDocs inside REPO
 
 ```
-mkdir -pv docs/
-cd docs/
+# You must be inside the git REPO.
 mkdocs new .
 
 ```
@@ -263,20 +262,80 @@ mkdocs new .
 ## File: mkdocs.yml 
 
 ```
-site_name: TESTER
+copyright: Copyright &copy; 2024-2024 VRTASS
+site_name: MkDocs Tester for Debian on VirtualBox
+site_url:  https://vrtass.github.io/tester/
 nav:
-  - Home: index.md
+  - Home:  index.md
   - About: about.md
-theme: readthedocs
+theme:
+  name:    material
+  font:
+    text:  Merriweather Sans
+    code:  Red Hat Mono
+  logo:    assets/cbkadal.jpg
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://youtube.com/
+    - icon: simple/linkedin
+      link: https://linkedin.com/
+
+# REVISI: Tue 03 Dec 2024 10:00
+# STARTX: Tue 03 Dec 2024 09:00
 
 ```
 
 * File about.md
 
 ```
-wget -O docs/about.md 'https://jaspervdj.be/lorem-markdownum/markdown.txt'
+echo "# About" > docs/about.md
 
 ```
+
+* Assets 
+
 
 [&#x213C;](#)<br id="idx012">
 ## Test from VirtualBox
