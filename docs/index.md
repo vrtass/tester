@@ -4,7 +4,7 @@
 This [GitHub Page](https://pages.github.com/){:target="_blank"} is hosted at [GitHub.com]({{ github_url }}){:target="_blank"}.
 File [LISTINGS](listing.md){:target="_blank"} are also available.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org){:target="_blank"}.
-And remember, you are not {{ extra.seo.author }}.
+And remember, you are not {{ extra.seo.author }}!
 
 <p style="text-align: right;">
 --- {{ extra.seo.author }}
@@ -14,6 +14,9 @@ And remember, you are not {{ extra.seo.author }}.
 ## Set Up
 
 * [NAT (Network Address Translation) Settings](NAT_settings.md)
+* [GitHub Repo Setting](GitHub.md)
+* [Debian Deb Packages](Debs.md)
+* [Python, Pip, and Venv Settings](Python.md)
 
 <hr>
 ## Links
@@ -32,10 +35,13 @@ there has never been a claim that this is an original work,
 nor is it necessarily the best solution, and not for Scopus consumption :).
 You might provide feedback on alternative ideas. 
 
-```
+```text
+REVISI: Tue 03 Dec 2024 17:00
 REVISI: Tue 03 Dec 2024 16:00
 REVISI: Mon 02 Dec 2024 21:00
 REVISI: Mon 02 Dec 2024 20:00
 REVISI: Sun 01 Dec 2024 01:01
 STARTX: Sun 01 Dec 2024 01:00
+
 ```
+

@@ -6,14 +6,17 @@ site_description: >
            on VirtualBox.
 site_url:  https://vrtass.github.io/tester/
 nav:
-  - Home:         index.md
+  - Home: index.md
   - NAT Settings: NAT_settings.md
-  - Listing:      listing.md
-  - About:        about.md
+  - GitHub: GitHub.md
+  - Debian Packages: Debs.md
+  - Python: Python.md
+  - Listing: listing.md
+  - About: about.md
 
 theme:
   name:    material
-  font:    false
+  # font:    false
   font:
     # text:  Merriweather Sans
     # text:  Sans-serif
@@ -81,15 +84,19 @@ extra:
             on VirtualBox.
     keywords: "keyword1, keyword2"
 
+extra_css:
+  - assets/styles.css
+
 plugins:
   - awesome-pages
   - include-markdown
   - macros
   - search
 
+# REVISI: Tue 03 Dec 2024 18:00
+# REVISI: Tue 03 Dec 2024 17:00
 # REVISI: Tue 03 Dec 2024 16:00
 # REVISI: Tue 03 Dec 2024 14:00
-# REVISI: Tue 03 Dec 2024 12:00
 # REVISI: Tue 03 Dec 2024 10:00
 # STARTX: Tue 03 Dec 2024 09:00
 
