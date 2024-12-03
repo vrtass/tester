@@ -8,4 +8,12 @@
          <loc>https://vrtass.github.io/tester/about/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
+    <url>
+         <loc>https://vrtass.github.io/tester/page1/</loc>
+         <lastmod>2024-12-03</lastmod>
+    </url>
+    <url>
+         <loc>https://vrtass.github.io/tester/page2/</loc>
+         <lastmod>2024-12-03</lastmod>
+    </url>
 </urlset>
