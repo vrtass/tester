@@ -222,7 +222,7 @@ python -m venv --help
 mkdir -pv ~/.virtualenvs/
 
 # Create a Virtual Environment
-python3 -m venv ~/.virtualenvs/$(basename $(pwd))
+python3 -m venv ~/.virtualenvs/
 
 ```
 
@@ -231,7 +231,7 @@ python3 -m venv ~/.virtualenvs/$(basename $(pwd))
 * Before working with "MkDocs", always activate the virtual environment!
 
 ```
-source ~/.virtualenvs/$(basename $(pwd))/bin/activate
+source ~/.virtualenvs/bin/activate
 
 ```
 
@@ -390,7 +390,7 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 <hr>
 
 ```
-REVISI: Tue 03 Dec 2024 13:00
+REVISI: Tue 03 Dec 2024 14:00
 REVISI: Tue 03 Dec 2024 11:00
 REVISI: Sun 01 Dec 2024 22:00
 REVISI: Fri 29 Nov 2024 19:02
