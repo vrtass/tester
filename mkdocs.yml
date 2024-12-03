@@ -62,9 +62,11 @@ extra:
       link: https://linkedin.com/
 
 plugins:
-  - include-markdown
   - awesome-pages
+  - include-markdown
+  - macro
 
+# REVISI: Tue 03 Dec 2024 14:00
 # REVISI: Tue 03 Dec 2024 12:00
 # REVISI: Tue 03 Dec 2024 10:00
 # STARTX: Tue 03 Dec 2024 09:00

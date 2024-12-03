@@ -275,6 +275,8 @@ site_name: MkDocs Tester for Debian on VirtualBox
 site_url:  https://vrtass.github.io/tester/
 nav:
   - Home:  index.md
+  - Page1: page1.md
+  - Page2: page2.md
   - About: about.md
 theme:
   name:    material
@@ -333,6 +335,7 @@ extra:
 plugins:
   - include-markdown
   - awesome-pages
+  - macro
 
 # REVISI: Tue 03 Dec 2024 13:00
 # REVISI: Tue 03 Dec 2024 12:00
