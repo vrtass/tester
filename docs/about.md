@@ -129,8 +129,8 @@ sequenceDiagram
 
 ### Include
 
-```
-{!assets/file.c!}
+```c
+{% include "assets/hello.c" %}
 
 ```
 
