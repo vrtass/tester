@@ -1,5 +1,7 @@
 # Poterant numina
 
+The value of the custom variable is: {{ custom_variable }}.
+
 ## Obvia scopuloque dente vetus
 
 Lorem markdownum ferventi hunc Menoetae cantu miserabilis ictibus, sum nec

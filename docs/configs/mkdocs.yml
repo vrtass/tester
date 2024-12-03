@@ -74,11 +74,13 @@ extra:
     keywords: "keyword1, keyword2"
     author: "BinKadak, Sdn. Bhd."
   custom_variable: "This is a custom variable from mkdocs.yml"
+  github_url: https://github.com/vrtass/tester/
 
 plugins:
   - awesome-pages
   - include-markdown
   - macros
+  - search
 
 # REVISI: Tue 03 Dec 2024 16:00
 # REVISI: Tue 03 Dec 2024 14:00

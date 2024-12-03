@@ -1,32 +1,27 @@
 # MkDocs for a Virtual Debian Guest on VirtualBox
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-The value of the custom variable is: {{ custom_variable }}.
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This [GitHub Page](https://pages.github.com/){:target="_blank"} is hosted at [GitHub.com]({{ github_url }}){:target="_blank"}.
+File [LISTINGS](listing.md){:target="_blank"} are also available.
+For full documentation visit [mkdocs.org](https://www.mkdocs.org){:target="_blank"}.
 
 ## Links
 
 * [mkdocs.org](https://www.mkdocs.org){:target="_blank"}
-* [GitHub Repo](https://github.com/vrtass/tester)
-* [Getting Started with Material for MkDocs](https://jameswillett.dev/getting-started-with-material-for-mkdocs/)
-* [YouTube](https://youtu.be/xlABhbnNrfI)
-* [Supporting Materials](https://github.com/james-willett/material-mkdocs-youtube-2024)
+* [GitHub Repo](https://github.com/vrtass/tester){:target="_blank"}
+* [Getting Started with Material for MkDocs](https://jameswillett.dev/getting-started-with-material-for-mkdocs/){:target="_blank"}
+* [YouTube](https://youtu.be/xlABhbnNrfI){:target="_blank"}
+* [Supporting Materials](https://github.com/james-willett/material-mkdocs-youtube-2024){:target="_blank"}
+
+## DISCLAIMER
+**This is the WAY!** This template is mainly written for **OWN PURPOSES**, it will be helpful in the future.
+It is based on "_Google There, Google Here, Try That, Try This, Then Ask._"
+Whether this is **PLAGIARY** or **RESEARCH**, 
+there has never been a claim that this is an original work, 
+nor is it necessarily the best solution, and not for Scopus consumption :).
+You might provide feedback on alternative ideas. 
 
 ```
-REVISI: Tue 03 Dec 2024 14:00
+REVISI: Tue 03 Dec 2024 16:00
 REVISI: Mon 02 Dec 2024 21:00
 REVISI: Mon 02 Dec 2024 20:00
 REVISI: Sun 01 Dec 2024 01:01
