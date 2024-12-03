@@ -381,11 +381,6 @@ git push
 ```
 mkdocs gh-deploy --force --clean
 git checkout gh-pages
-echo "Checkit out at <https://vrtass.github.io/tester/>, but your are not VRTASS!" > README.md
-git add .
-git commit -m "Include a README.md in gh-pages"
-git push origin gh-pages
-git checkout master
 mkdocs serve --dev-addr=0.0.0.0:8000
 
 ```
@@ -395,7 +390,7 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 <hr>
 
 ```
-REVISI: Tue 03 Dec 2024 14:00
+REVISI: Tue 03 Dec 2024 15:00
 REVISI: Tue 03 Dec 2024 11:00
 REVISI: Sun 01 Dec 2024 22:00
 REVISI: Fri 29 Nov 2024 19:02
