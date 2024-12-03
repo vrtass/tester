@@ -52,7 +52,6 @@ git push
 
 ```
 mkdocs gh-deploy --force --clean
-git checkout gh-pages
 mkdocs serve --dev-addr=0.0.0.0:8000
 
 ```
@@ -64,7 +63,7 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 
 !!! note "Revision:"
     <pre>
-    REVISI: Tue 03 Dec 2024 23:00
+    REVISI: Tue 03 Dec 2024 23:01
     REVISI: Tue 03 Dec 2024 22:00
     REVISI: Tue 03 Dec 2024 21:00
     STARTX: Tue 03 Dec 2024 20:00
