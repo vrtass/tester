@@ -1,9 +1,21 @@
-# MkDocs for a Virtual Debian Guest on VirtualBox
+# MkDocs for a Debian on VirtualBox/UTM
 
+<img src="img/logo.jpg" style="float: left; margin: 3px 20px 3px 3px; width: 110px;">
 This [GitHub Page](https://pages.github.com/){:target="_blank"} is hosted at [GitHub.com]({{ github_url }}){:target="_blank"}.
 File [LISTINGS](listing.md){:target="_blank"} are also available.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org){:target="_blank"}.
+And remember, you are not {{ extra.seo.author }}.
 
+<p style="text-align: right;">
+--- {{ extra.seo.author }}
+</p>
+<hr>
+
+## Set Up
+
+* [NAT (Network Address Translation) Settings](NAT_settings.md)
+
+<hr>
 ## Links
 
 * [mkdocs.org](https://www.mkdocs.org){:target="_blank"}
