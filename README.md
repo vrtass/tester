@@ -273,7 +273,7 @@ theme:
   font:
     text:  Merriweather Sans
     code:  Red Hat Mono
-  logo:    assets/cbkadal.jpg
+  logo:    assets/logo.jpg
   favicon: assets/favicon.ico
   features:
     - navigation.footer
@@ -322,6 +322,7 @@ extra:
     - icon: simple/linkedin
       link: https://linkedin.com/
 
+# REVISI: Tue 03 Dec 2024 11:00
 # REVISI: Tue 03 Dec 2024 10:00
 # STARTX: Tue 03 Dec 2024 09:00
 
