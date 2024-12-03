@@ -31,6 +31,7 @@ python3 -m venv ~/.virtualenvs/
 ```
 # Always activate the VENV
 source ~/.virtualenvs/bin/activate
+tree
 
 ```
 
@@ -60,5 +61,9 @@ pip --version
 mkdocs --version
 pip cache purge
 
+```
+
+```text
+STARTX: Tue 03 Dec 2024 21:000
 ```
 

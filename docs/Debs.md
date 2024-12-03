@@ -13,6 +13,7 @@ python3-dev
 python3-pip
 python3-venv
 sudo
+tree
 vim
 wget
 "
@@ -21,4 +22,7 @@ date
 
 ```
 
+```text
+STARTX: Tue 03 Dec 2024 21:00
+```
 

@@ -1,6 +1,6 @@
 # MkDocs for a Debian on VirtualBox/UTM
 
-<img src="img/logo.jpg" style="float: left; margin: 3px 20px 3px 3px; width: 110px;">
+<img src="img/vrtass.jpg" style="float: left; margin: 3px 20px 3px 3px; width: 110px;">
 This [GitHub Page](https://pages.github.com/){:target="_blank"} is hosted at [GitHub.com]({{ github_url }}){:target="_blank"}.
 File [LISTINGS](listing.md){:target="_blank"} are also available.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org){:target="_blank"}.
@@ -17,6 +17,7 @@ And remember, you are not {{ extra.seo.author }}!
 * [GitHub Repo Setting](GitHub.md)
 * [Debian Deb Packages](Debs.md)
 * [Python, Pip, and Venv Settings](Python.md)
+* [MkDocs Setting](MkDocs.md)
 
 <hr>
 ## Links
@@ -36,7 +37,7 @@ nor is it necessarily the best solution, and not for Scopus consumption :).
 You might provide feedback on alternative ideas. 
 
 ```text
-REVISI: Tue 03 Dec 2024 17:00
+REVISI: Tue 03 Dec 2024 12:00
 REVISI: Tue 03 Dec 2024 16:00
 REVISI: Mon 02 Dec 2024 21:00
 REVISI: Mon 02 Dec 2024 20:00
