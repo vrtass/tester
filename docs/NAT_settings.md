@@ -34,6 +34,6 @@ because I already use 5000 for Jekyll and 5001 for Docusaurus.
 ![Virtual Box NAT](img/debM1-forward.jpg){ width=95% }
 
 ```
-STARTX: Tue 03 Dec 2024 17:000
+STARTX: Tue 03 Dec 2024 17:00
 ```
 
