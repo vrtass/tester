@@ -241,7 +241,12 @@ source ~/.virtualenvs/$(basename $(pwd))/bin/activate
 * Upgrade, Clean Up, and Verify Version
 
 ```
-pip install --upgrade pip mkdocs mkdocs-material mkdocs-include-markdown-plugin
+pip install --upgrade          \
+pip                            \
+mkdocs                         \
+mkdocs-material                \
+mkdocs-include-markdown-plugin \
+mkdocs-awesome-pages-plugin
 
 echo "= ======================================="
 pip --version
@@ -325,7 +330,9 @@ extra:
 
 plugins:
   - include-markdown
+  - awesome-pages
 
+# REVISI: Tue 03 Dec 2024 13:00
 # REVISI: Tue 03 Dec 2024 12:00
 # REVISI: Tue 03 Dec 2024 11:00
 # REVISI: Tue 03 Dec 2024 10:00
@@ -383,11 +390,11 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 <hr>
 
 ```
+REVISI: Tue 03 Dec 2024 13:00
 REVISI: Tue 03 Dec 2024 11:00
 REVISI: Sun 01 Dec 2024 22:00
 REVISI: Fri 29 Nov 2024 19:02
 REVISI: Fri 29 Nov 2024 18:00
-REVISI: Fri 29 Nov 2024 17:08
 STARTX: Tue 26 Nov 2024 12:00
 ```
 
