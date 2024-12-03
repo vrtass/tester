@@ -136,9 +136,10 @@ sequenceDiagram
 
 ```
 
-
-```
-REVISI: Tue 03 Dec 2024 18:00
-REVISI: Tue 03 Dec 2024 11:00
-STARTX: Tue 03 Dec 2024 09:00
-```
+!!! note "Revision:"
+    <pre>
+    REVISI: Tue 03 Dec 2024 23:00
+    REVISI: Tue 03 Dec 2024 18:00
+    REVISI: Tue 03 Dec 2024 11:00
+    STARTX: Tue 03 Dec 2024 09:00
+    </pre>

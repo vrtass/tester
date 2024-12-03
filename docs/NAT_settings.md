@@ -33,9 +33,9 @@ because I already use 5000 for Jekyll and 5001 for Docusaurus.
 
 ![UTM NAT](img/debM1-forward.jpg){ width=95% }
 
-```
-STARTX: Tue 03 Dec 2024 17:00
-
-```
-
+!!! note "Revision:"
+    <pre>
+    REVISI: Tue 03 Dec 2024 23:00
+    STARTX: Tue 03 Dec 2024 17:00
+    </pre>
 

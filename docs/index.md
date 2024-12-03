@@ -36,13 +36,13 @@ there has never been a claim that this is an original work,
 nor is it necessarily the best solution, and not for Scopus consumption :).
 You might provide feedback on alternative ideas. 
 
-```text
-REVISI: Tue 03 Dec 2024 12:00
-REVISI: Tue 03 Dec 2024 16:00
-REVISI: Mon 02 Dec 2024 21:00
-REVISI: Mon 02 Dec 2024 20:00
-REVISI: Sun 01 Dec 2024 01:01
-STARTX: Sun 01 Dec 2024 01:00
-
-```
+!!! note "Revision:"
+    <pre>
+    REVISI: Tue 03 Dec 2024 23:00
+    REVISI: Tue 03 Dec 2024 16:00
+    REVISI: Mon 02 Dec 2024 21:00
+    REVISI: Mon 02 Dec 2024 20:00
+    REVISI: Sun 01 Dec 2024 01:01
+    STARTX: Sun 01 Dec 2024 01:00
+    </pre>
 

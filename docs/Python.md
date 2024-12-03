@@ -63,7 +63,9 @@ pip cache purge
 
 ```
 
-```text
-STARTX: Tue 03 Dec 2024 21:000
-```
+!!! note "Revision:"
+    <pre>
+    REVISI: Tue 03 Dec 2024 21:000
+    STARTX: Tue 03 Dec 2024 21:000
+    </pre>
 
