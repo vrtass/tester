@@ -1,16 +1,15 @@
-copyright: >
-  Copyright &copy; 2024-2024 VRTASS
-site_name: MkDocs Tester
-site_url: https://vrtass.github.io/tester/
+copyright: Copyright &copy; 2024-2024 VRTASS
+site_name: MkDocs Tester for Debian on VirtualBox
+site_url:  https://vrtass.github.io/tester/
 nav:
-  - Home: index.md
+  - Home:  index.md
   - About: about.md
 theme:
-  name: material
+  name:    material
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
-  logo: assets/cbkadal.jpg
+    text:  Merriweather Sans
+    code:  Red Hat Mono
+  logo:    assets/cbkadal.jpg
   favicon: assets/favicon.ico
   features:
     - navigation.footer
@@ -59,5 +58,6 @@ extra:
     - icon: simple/linkedin
       link: https://linkedin.com/
 
+# REVISI: Tue 03 Dec 2024 10:00
 # STARTX: Tue 03 Dec 2024 09:00
 
