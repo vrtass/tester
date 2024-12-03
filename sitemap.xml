@@ -5,7 +5,19 @@
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
+         <loc>https://vrtass.github.io/tester/Debs/</loc>
+         <lastmod>2024-12-03</lastmod>
+    </url>
+    <url>
+         <loc>https://vrtass.github.io/tester/GitHub/</loc>
+         <lastmod>2024-12-03</lastmod>
+    </url>
+    <url>
          <loc>https://vrtass.github.io/tester/NAT_settings/</loc>
+         <lastmod>2024-12-03</lastmod>
+    </url>
+    <url>
+         <loc>https://vrtass.github.io/tester/Python/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
@@ -14,10 +26,6 @@
     </url>
     <url>
          <loc>https://vrtass.github.io/tester/listing/</loc>
-         <lastmod>2024-12-03</lastmod>
-    </url>
-    <url>
-         <loc>https://vrtass.github.io/tester/page/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
 </urlset>
