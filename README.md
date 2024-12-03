@@ -24,7 +24,6 @@ git push
 
 ```
 mkdocs gh-deploy --force --clean
-git checkout gh-pages
 mkdocs serve --dev-addr=0.0.0.0:8000
 
 ```
