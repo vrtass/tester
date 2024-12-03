@@ -11,26 +11,28 @@
       
       
       
-        <link rel="canonical" href="https://vrtass.github.io/tester/">
+        <link rel="canonical" href="https://vrtass.github.io/tester/NAT_settings/">
       
       
+        <link rel="prev" href="..">
       
-        <link rel="next" href="NAT_settings/">
+      
+        <link rel="next" href="../listing/">
       
       
-      <link rel="icon" href="img/favicon.ico">
+      <link rel="icon" href="../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
     
     
       
-        <title>MkDocs for Debian on VirtualBox/UTM</title>
+        <title>NAT Settings - MkDocs for Debian on VirtualBox/UTM</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -49,7 +51,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -75,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mkdocs-for-a-debian-on-virtualboxutm" class="md-skip">
+        <a href="#network-address-translation-nat-settings" class="md-skip">
           Skip to content
         </a>
       
@@ -91,9 +93,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="MkDocs for Debian on VirtualBox/UTM" class="md-header__button md-logo" aria-label="MkDocs for Debian on VirtualBox/UTM" data-md-component="logo">
+    <a href=".." title="MkDocs for Debian on VirtualBox/UTM" class="md-header__button md-logo" aria-label="MkDocs for Debian on VirtualBox/UTM" data-md-component="logo">
       
-  <img src="img/logo.jpg" alt="logo">
+  <img src="../img/logo.jpg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              NAT Settings
             
           </span>
         </div>
@@ -211,15 +213,35 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="MkDocs for Debian on VirtualBox/UTM" class="md-nav__button md-logo" aria-label="MkDocs for Debian on VirtualBox/UTM" data-md-component="logo">
+    <a href=".." title="MkDocs for Debian on VirtualBox/UTM" class="md-nav__button md-logo" aria-label="MkDocs for Debian on VirtualBox/UTM" data-md-component="logo">
       
-  <img src="img/logo.jpg" alt="logo">
+  <img src="../img/logo.jpg" alt="logo">
 
     </a>
     MkDocs for Debian on VirtualBox/UTM
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
     
       
       
@@ -234,25 +256,23 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   <span class="md-ellipsis">
-    Home
+    NAT Settings
   </span>
   
 
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Home
+    NAT Settings
   </span>
   
 
@@ -264,8 +284,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -274,29 +292,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#set-up" class="md-nav__link">
+  <a href="#network-address-translation-nat-settings" class="md-nav__link">
     <span class="md-ellipsis">
-      Set Up
+      Network Address Translation (NAT) Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Network Address Translation (NAT) Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#virtualbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      VirtualBox
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#links" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#utm" class="md-nav__link">
     <span class="md-ellipsis">
-      Links
+      UTM
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#disclaimer" class="md-nav__link">
-    <span class="md-ellipsis">
-      DISCLAIMER
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -315,27 +339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="NAT_settings/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    NAT Settings
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="listing/" class="md-nav__link">
+      <a href="../listing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -355,7 +359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -385,8 +389,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -395,29 +397,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#set-up" class="md-nav__link">
+  <a href="#network-address-translation-nat-settings" class="md-nav__link">
     <span class="md-ellipsis">
-      Set Up
+      Network Address Translation (NAT) Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Network Address Translation (NAT) Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#virtualbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      VirtualBox
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#links" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#utm" class="md-nav__link">
     <span class="md-ellipsis">
-      Links
+      UTM
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#disclaimer" class="md-nav__link">
-    <span class="md-ellipsis">
-      DISCLAIMER
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -436,42 +444,43 @@
                   
 
 
-<h1 id="mkdocs-for-a-debian-on-virtualboxutm">MkDocs for a Debian on VirtualBox/UTM</h1>
-<p><img src="img/logo.jpg" style="float: left; margin: 3px 20px 3px 3px; width: 110px;">
-This <a href="https://pages.github.com/" target="_blank">GitHub Page</a> is hosted at <a href="https://github.com/vrtass/tester/" target="_blank">GitHub.com</a>.
-File <a href="listing/" target="_blank">LISTINGS</a> are also available.
-For full documentation visit <a href="https://www.mkdocs.org" target="_blank">mkdocs.org</a>.
-And remember, you are not The Virtual Ass.</p>
-<p style="text-align: right;">
---- The Virtual Ass
-</p>
-<hr>
+  <h1>NAT Settings</h1>
 
-<h2 id="set-up">Set Up</h2>
+<h2 id="network-address-translation-nat-settings">Network Address Translation (NAT) Settings</h2>
+<h3 id="virtualbox">VirtualBox</h3>
+<p>MkDocs is using local port 8000. 
+On your VirtualBox, you must redirect/translate the local port 8000 to the host port 4999
+because I already use 5000 for Jekyll and 5001 for Docusaurus.</p>
 <ul>
-<li><a href="NAT_settings/">NAT (Network Address Translation) Settings</a></li>
+<li>VirtualBox Settings</li>
+<li>Network:Adapter1:<ul>
+<li>Enable Network Adapter</li>
+<li>Attached to: NAT</li>
+<li>Port Forwarding:</li>
+<li>127.0.0.1:4999 (Host) --- 10.0.2.15:8000 (Guest)</li>
 </ul>
-<hr>
-<h2 id="links">Links</h2>
+</li>
+</ul>
+<p><img alt="Virtual Box NAT" src="../img/VBOX-NAT.jpg" width="95%" /></p>
+<h3 id="utm">UTM</h3>
+<p>MkDocs is using local port 8000. 
+On your UTM, you must redirect/translate the local port 8000 to the host port 4999
+because I already use 5000 for Jekyll and 5001 for Docusaurus.</p>
 <ul>
-<li><a href="https://www.mkdocs.org" target="_blank">mkdocs.org</a></li>
-<li><a href="https://github.com/vrtass/tester" target="_blank">GitHub Repo</a></li>
-<li><a href="https://jameswillett.dev/getting-started-with-material-for-mkdocs/" target="_blank">Getting Started with Material for MkDocs</a></li>
-<li><a href="https://youtu.be/xlABhbnNrfI" target="_blank">YouTube</a></li>
-<li><a href="https://github.com/james-willett/material-mkdocs-youtube-2024" target="_blank">Supporting Materials</a></li>
+<li>UTM Settings</li>
+<li>Network Mode: Emulated VLAN<ul>
+<li>Port Forward: New</li>
+<li>Protocol: TCP</li>
+<li>Guest Address: 10.0.2.15</li>
+<li>Guest Port: 8000</li>
+<li>Host Address: 127.0.0.1</li>
+<li>Host Port: 4999</li>
 </ul>
-<h2 id="disclaimer">DISCLAIMER</h2>
-<p><strong>This is the WAY!</strong> This template is mainly written for <strong>OWN PURPOSES</strong>, it will be helpful in the future.
-It is based on "<em>Google There, Google Here, Try That, Try This, Then Ask.</em>"
-Whether this is <strong>PLAGIARY</strong> or <strong>RESEARCH</strong>, 
-there has never been a claim that this is an original work, 
-nor is it necessarily the best solution, and not for Scopus consumption :).
-You might provide feedback on alternative ideas. </p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>REVISI: Tue 03 Dec 2024 16:00
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>REVISI: Mon 02 Dec 2024 21:00
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>REVISI: Mon 02 Dec 2024 20:00
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>REVISI: Sun 01 Dec 2024 01:01
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>STARTX: Sun 01 Dec 2024 01:00
+</li>
+<li>SAVE</li>
+</ul>
+<p><img alt="Virtual Box NAT" src="../img/debM1-forward.jpg" width="95%" /></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>STARTX: Tue 03 Dec 2024 17:00
 </span></code></pre></div>
 
 
@@ -501,15 +510,31 @@ You might provide feedback on alternative ideas. </p>
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
         
           
-          <a href="NAT_settings/" class="md-footer__link md-footer__link--next" aria-label="Next: NAT Settings">
+          <a href="../listing/" class="md-footer__link md-footer__link--next" aria-label="Next: Listing">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                NAT Settings
+                Listing
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -573,10 +598,10 @@ You might provide feedback on alternative ideas. </p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy", "navigation.footer"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "navigation.footer"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   </body>

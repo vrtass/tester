@@ -1,22 +1,27 @@
 copyright: Copyright &copy; 2024-2024 VRTASS
-site_name: MkDocs for a Virtual Debian Guest on VirtualBox
+site_name: MkDocs for Debian on VirtualBox/UTM
 site_description: >
            MkDocs for 
            a Virtual Debian Guest 
            on VirtualBox.
 site_url:  https://vrtass.github.io/tester/
 nav:
-  - Home:    index.md
-  - Listing: listing.md
-  - About:   about.md
+  - Home:         index.md
+  - NAT Settings: NAT_settings.md
+  - Listing:      listing.md
+  - About:        about.md
 
 theme:
   name:    material
+  font:    false
   font:
-    text:  Merriweather Sans
+    # text:  Merriweather Sans
+    # text:  Sans-serif
+    # text:  Arial
+    text:  Verdana
     code:  Red Hat Mono
-  logo:    assets/logo.jpg
-  favicon: assets/favicon.ico
+  logo:    img/logo.jpg
+  favicon: img/favicon.ico
   features:
     - content.code.copy
     - navigation.footer
@@ -46,7 +51,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
-      linenums: true
+      linenums: false
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
@@ -61,20 +66,20 @@ markdown_extensions:
 
 
 extra:
+  custom_variable: "This is a custom variable from mkdocs.yml"
+  github_url:      "https://github.com/vrtass/tester/"
   social:
     - icon: simple/youtube
       link: https://youtube.com/
     - icon: simple/linkedin
       link: https://linkedin.com/
   seo:
+    author: "The Virtual Ass"
     description: >
-           MkDocs for 
-           a Virtual Debian Guest 
-           on VirtualBox.
+            MkDocs for 
+            a Virtual Debian Guest 
+            on VirtualBox.
     keywords: "keyword1, keyword2"
-    author: "BinKadak, Sdn. Bhd."
-  custom_variable: "This is a custom variable from mkdocs.yml"
-  github_url: https://github.com/vrtass/tester/
 
 plugins:
   - awesome-pages
