@@ -35,7 +35,7 @@ I am already using 5000 for Jekyll and 5001 for Docusaurus.
     * Port Forwarding:
       * 127.0.0.1:4999 (Host) --- 10.0.2.15:8000 (Guest)
 
-<br><img src="images/VBOX-NAT.jpg"  width="960"><br>
+<br><img src="docs/assets/VBOX-NAT.jpg"  width="960"><br>
 
 [&#x213C;](#)<br id="idx001a">
 
@@ -55,7 +55,7 @@ I am already using 5000 for Jekyll and 5001 for Docusaurus.
       * Host Port: 4999
    * SAVE
 
-<br><img src="images/debM1-forward.jpg"  width="960"><br>
+<br><img src="docs/assets/debM1-forward.jpg"  width="960"><br>
 
 [&#x213C;](#)<br id="idx002">
 ## GitHub Repo tester
@@ -318,11 +318,11 @@ git checkout master
 <hr>
 
 ```
+REVISI: Tue 03 Dec 2024 10:00
 REVISI: Sun 01 Dec 2024 22:00
 REVISI: Fri 29 Nov 2024 19:02
 REVISI: Fri 29 Nov 2024 18:00
 REVISI: Fri 29 Nov 2024 17:08
-REVISI: Fri 29 Nov 2024 14:04
 STARTX: Tue 26 Nov 2024 12:00
 ```
 
