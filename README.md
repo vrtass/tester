@@ -370,6 +370,7 @@ git add .
 git commit -m "Include a README.md in gh-pages"
 git push origin gh-pages
 git checkout master
+mkdocs serve --dev-addr=0.0.0.0:8000
 
 ```
 
