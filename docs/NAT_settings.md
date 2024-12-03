@@ -31,7 +31,7 @@ because I already use 5000 for Jekyll and 5001 for Docusaurus.
       * Host Port: 4999
    * SAVE
 
-![Virtual Box NAT](img/debM1-forward.jpg){ width=95% }
+![UTM NAT](img/debM1-forward.jpg){ width=95% }
 
 ```
 STARTX: Tue 03 Dec 2024 17:00
