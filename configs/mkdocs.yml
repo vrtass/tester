@@ -11,6 +11,7 @@ nav:
   - GitHub: GitHub.md
   - Debian Packages: Debs.md
   - Python: Python.md
+  - MkDocs: MkDocs.md
   - Listing: listing.md
   - About: about.md
 
@@ -23,7 +24,7 @@ theme:
     # text:  Arial
     text:  Verdana
     code:  Red Hat Mono
-  logo:    img/logo.jpg
+  logo:    img/vrtass.jpg
   favicon: img/favicon.ico
   features:
     - content.code.copy
@@ -67,7 +68,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-
 extra:
   custom_variable: "This is a custom variable from mkdocs.yml"
   github_url:      "https://github.com/vrtass/tester/"
@@ -93,8 +93,8 @@ plugins:
   - macros
   - search
 
-# REVISI: Tue 03 Dec 2024 18:00
-# REVISI: Tue 03 Dec 2024 17:00
+# REVISI: Tue 03 Dec 2024 22:00
+# REVISI: Tue 03 Dec 2024 20:00
 # REVISI: Tue 03 Dec 2024 16:00
 # REVISI: Tue 03 Dec 2024 14:00
 # REVISI: Tue 03 Dec 2024 10:00
