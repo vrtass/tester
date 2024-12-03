@@ -248,6 +248,7 @@ mkdocs-awesome-pages-plugin    \
 mkdocs-include-markdown-plugin \
 mkdocs-macros-plugin           \
 mkdocs-material                \
+pymdown-extensions             \
 
 
 echo "= ======================================="
@@ -390,7 +391,7 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 <hr>
 
 ```
-REVISI: Tue 03 Dec 2024 15:00
+REVISI: Tue 03 Dec 2024 16:00
 REVISI: Tue 03 Dec 2024 11:00
 REVISI: Sun 01 Dec 2024 22:00
 REVISI: Fri 29 Nov 2024 19:02
