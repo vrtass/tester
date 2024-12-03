@@ -12,11 +12,9 @@ tantoque, vidit aevi.
 > alii reges quam facto illud iuvenci. Fuerim nobiliumque, mota fratrum: dives
 > raptamque fuga inmensum movent nece faciemque non.
 
-## Locorum illa
-
-Dryope pectora non summo dedere, **ait**, nubila regia vitalesque putat,
-convertit. Parabat effugere Phoebeius facit. *Fac pericula*, quae India ille
-nomine quod, repperit per nec esse.
+* XYZZY
+    * Sub XYZZY
+        * Sub Sub
 
 ## Examples
 
@@ -126,6 +124,13 @@ sequenceDiagram
   Terminal-->>Server: Everything is OK
   Terminal->>Database: Request customer data
   Database-->>Terminal: Customer data
+
+```
+
+### Include
+
+```
+{!assets/file.c!}
 
 ```
 

@@ -58,6 +58,10 @@ extra:
     - icon: simple/linkedin
       link: https://linkedin.com/
 
+plugins:
+  - include-markdown
+
+# REVISI: Tue 03 Dec 2024 12:00
 # REVISI: Tue 03 Dec 2024 10:00
 # STARTX: Tue 03 Dec 2024 09:00
 

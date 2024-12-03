@@ -241,7 +241,8 @@ source ~/.virtualenvs/$(basename $(pwd))/bin/activate
 * Upgrade, Clean Up, and Verify Version
 
 ```
-pip install --upgrade pip mkdocs mkdocs-material
+pip install --upgrade pip mkdocs mkdocs-material mkdocs-include-markdown-plugin
+
 echo "= ======================================="
 pip --version
 mkdocs --version
@@ -322,6 +323,10 @@ extra:
     - icon: simple/linkedin
       link: https://linkedin.com/
 
+plugins:
+  - include-markdown
+
+# REVISI: Tue 03 Dec 2024 12:00
 # REVISI: Tue 03 Dec 2024 11:00
 # REVISI: Tue 03 Dec 2024 10:00
 # STARTX: Tue 03 Dec 2024 09:00
