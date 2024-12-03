@@ -64,6 +64,14 @@ extra:
       link: https://youtube.com/
     - icon: simple/linkedin
       link: https://linkedin.com/
+  seo:
+    description: >
+           MkDocs for 
+           a Virtual Debian Guest 
+           on VirtualBox.
+    keywords: "keyword1, keyword2"
+    author: "BinKadak, Sdn. Bhd."
+
 
 plugins:
   - awesome-pages
