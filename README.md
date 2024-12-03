@@ -248,7 +248,6 @@ mkdocs-awesome-pages-plugin    \
 mkdocs-include-markdown-plugin \
 mkdocs-macros-plugin           \
 mkdocs-material                \
-mkdocs-seo                     \
 
 
 echo "= ======================================="
