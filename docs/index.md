@@ -1,4 +1,4 @@
-# MkDocs Tester for Debian on VirtualBox
+# MkDocs for a Virtual Debian Guest on VirtualBox
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -18,13 +18,14 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Links
 
-* [mkdocs.org](https://www.mkdocs.org)
+* [mkdocs.org](https://www.mkdocs.org){:target="_blank"}
 * [GitHub Repo](https://github.com/vrtass/tester)
 * [Getting Started with Material for MkDocs](https://jameswillett.dev/getting-started-with-material-for-mkdocs/)
 * [YouTube](https://youtu.be/xlABhbnNrfI)
 * [Supporting Materials](https://github.com/james-willett/material-mkdocs-youtube-2024)
 
 ```
+REVISI: Tue 03 Dec 2024 14:00
 REVISI: Mon 02 Dec 2024 21:00
 REVISI: Mon 02 Dec 2024 20:00
 REVISI: Sun 01 Dec 2024 01:01

@@ -1,4 +1,4 @@
-# MkDocs Tester for Debian on VirtualBox
+# MkDocs for a Virtual Debian Guest on VirtualBox
 
 [&#x213C;](#idxXXX)<br id="idx000">
 ## Table of Content (Toc)
@@ -244,9 +244,11 @@ source ~/.virtualenvs/bin/activate
 pip install --upgrade          \
 pip                            \
 mkdocs                         \
-mkdocs-material                \
+mkdocs-awesome-pages-plugin    \
 mkdocs-include-markdown-plugin \
-mkdocs-awesome-pages-plugin
+mkdocs-macros-plugin           \
+mkdocs-material                \
+
 
 echo "= ======================================="
 pip --version
