@@ -14,15 +14,19 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 # deactivate
 deactivate
 
-# Upgrade and Clean
-pip install --upgrade pip      \
+# Upgrade, Clean Up, and Verify Version
+pip install --upgrade          \
+pip                            \
 mkdocs                         \
 mkdocs-awesome-pages-plugin    \
 mkdocs-include-markdown-plugin \
 mkdocs-macros-plugin           \
 mkdocs-material                \
+pymdown-extensions             \
 
-
+echo "= ======================================="
+pip --version
+mkdocs --version
 pip cache purge
 
 # Deploy (gh-pages)
