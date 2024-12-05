@@ -1,5 +1,8 @@
 # Examples
 
+Examples are taken from Here, There, and Everywhere, including from:
+James Willett's YouTube channel.
+
 ## Custom Variable
    {{ custom_variable }}.
 
