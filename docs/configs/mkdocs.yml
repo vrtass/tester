@@ -7,13 +7,7 @@ site_description: >
 site_url:  https://vrtass.github.io/tester/
 nav:
   - Home: index.md
-  - NAT Settings: NAT_settings.md
-  - GitHub: GitHub.md
-  - Debian Packages: Debs.md
-  - Python: Python.md
-  - MkDocs: MkDocs.md
-  - Listing: listing.md
-  - About: about.md
+  - Examples: examples.md
 
 theme:
   name:    material
@@ -90,13 +84,13 @@ extra_css:
 plugins:
   - awesome-pages
   - include-markdown
-  - macros
   - search
+  - macros
 
+# REVISI: Thu 05 Dec 2024 16:00
+# REVISI: Thu 05 Dec 2024 15:00
 # REVISI: Tue 03 Dec 2024 22:00
 # REVISI: Tue 03 Dec 2024 20:00
 # REVISI: Tue 03 Dec 2024 16:00
-# REVISI: Tue 03 Dec 2024 14:00
-# REVISI: Tue 03 Dec 2024 10:00
 # STARTX: Tue 03 Dec 2024 09:00
 
