@@ -3,7 +3,8 @@
 ![VRTASS Logo](img/vrtass.jpg){: style="float: left; margin: 3px 20px 3px 3px; width: 110px;"}
 This [GitHub Page](https://pages.github.com/){:target="_blank"} is hosted at [GitHub.com]({{ github_url }}){:target="_blank"}.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org){:target="_blank"}.
-And remember, you are not {{ extra.author }}!
+And remember, 
+<span class="red-text">YOU ARE NOT VRTASS!</span>
 
 <p style="text-align: right;">
 --- {{ extra.author }}
@@ -18,12 +19,12 @@ MkDocs is using local port 8000.
 On your VirtualBox, you must redirect/translate the local port 8000 to the host port 4999
 because I already use 5000 for Jekyll and 5001 for Docusaurus.
 
-* VirtualBox Settings
-  * Network:Adapter1:
+#### VirtualBox Settings
+* Network:Adapter1:
     * Enable Network Adapter
     * Attached to: NAT
     * Port Forwarding:
-      * 127.0.0.1:4999 (Host) --- 10.0.2.15:8000 (Guest)
+        * 127.0.0.1:4999 (Host) --- 10.0.2.15:8000 (Guest)
 
 ![Virtual Box NAT](img/VBOX-NAT.jpg){ width=95% }
 
@@ -33,15 +34,15 @@ MkDocs is using local port 8000.
 On your UTM, you must redirect/translate the local port 8000 to the host port 4999
 because I already use 5000 for Jekyll and 5001 for Docusaurus.
 
-* UTM Settings
-  * Network Mode: Emulated VLAN
+#### UTM Settings
+* Network Mode: Emulated VLAN
     * Port Forward: New
-      * Protocol: TCP
-      * Guest Address: 10.0.2.15
-      * Guest Port: 8000
-      * Host Address: 127.0.0.1
-      * Host Port: 4999
-   * SAVE
+        * Protocol: TCP
+        * Guest Address: 10.0.2.15
+        * Guest Port: 8000
+        * Host Address: 127.0.0.1
+        * Host Port: 4999
+    * SAVE
 
 ![UTM NAT](img/debM1-forward.jpg){ width=95% }
 

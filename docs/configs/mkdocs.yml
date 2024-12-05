@@ -11,6 +11,8 @@ site_url:  https://vrtass.github.io/tester/
 nav:
   - Home: index.md
   - Examples: examples.md
+  - GitHub: https://github.com/vrtass/tester/
+  - WEB: https://vrtass.github.io/tester/
 
 theme:
   name:    material
@@ -66,10 +68,9 @@ extra:
   custom_variable: "This is a custom variable from mkdocs.yml"
   github_url:      "https://github.com/vrtass/tester/"
   social:
-    - icon: simple/youtube
-      link: https://youtube.com/
-    - icon: simple/linkedin
-      link: https://linkedin.com/
+    - icon: simple/github
+      link: https://github.com/vrtass/tester/
+
   seo:
     description: >
             MkDocs for 
