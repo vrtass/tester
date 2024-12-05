@@ -1,9 +1,10 @@
 # MkDocs for a Debian on VirtualBox/UTM
 
-<img src="img/vrtass.jpg" style="float: left; margin: 3px 20px 3px 3px; width: 110px;">
+![VRTASS Logo](img/vrtass.jpg){: style="float: left; margin: 3px 20px 3px 3px; width: 110px;"}
 This [GitHub Page](https://pages.github.com/){:target="_blank"} is hosted at [GitHub.com]({{ github_url }}){:target="_blank"}.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org){:target="_blank"}.
-And remember, you are not {{ extra.author }}!
+And remember, 
+<span class="red-text">YOU ARE NOT VRTASS!</span>
 
 <p style="text-align: right;">
 --- {{ extra.author }}
@@ -18,12 +19,12 @@ MkDocs is using local port 8000.
 On your VirtualBox, you must redirect/translate the local port 8000 to the host port 4999
 because I already use 5000 for Jekyll and 5001 for Docusaurus.
 
-* VirtualBox Settings
-  * Network:Adapter1:
+#### VirtualBox Settings
+* Network:Adapter1:
     * Enable Network Adapter
     * Attached to: NAT
     * Port Forwarding:
-      * 127.0.0.1:4999 (Host) --- 10.0.2.15:8000 (Guest)
+        * 127.0.0.1:4999 (Host) --- 10.0.2.15:8000 (Guest)
 
 ![Virtual Box NAT](img/VBOX-NAT.jpg){ width=95% }
 
@@ -33,15 +34,15 @@ MkDocs is using local port 8000.
 On your UTM, you must redirect/translate the local port 8000 to the host port 4999
 because I already use 5000 for Jekyll and 5001 for Docusaurus.
 
-* UTM Settings
-  * Network Mode: Emulated VLAN
+#### UTM Settings
+* Network Mode: Emulated VLAN
     * Port Forward: New
-      * Protocol: TCP
-      * Guest Address: 10.0.2.15
-      * Guest Port: 8000
-      * Host Address: 127.0.0.1
-      * Host Port: 4999
-   * SAVE
+        * Protocol: TCP
+        * Guest Address: 10.0.2.15
+        * Guest Port: 8000
+        * Host Address: 127.0.0.1
+        * Host Port: 4999
+    * SAVE
 
 ![UTM NAT](img/debM1-forward.jpg){ width=95% }
 
@@ -165,7 +166,7 @@ tree
 Once activated, you should see the name of the virtual environment in your terminal prompt, e.g.
 **"(.virtualenvs) cbkadal@cbkadal:~/git/tester$ "**
 
-![Virtual Environment](img/venv.jpg){ width=95% }
+![Virtual Environment](img/mkdocs-new.jpg){ width=95% }
 
 
 ## Install MkDocs and additional MkDocs plugins
@@ -270,9 +271,9 @@ there has never been a claim that this is an original work,
 nor is it necessarily the best solution, and not for Scopus consumption :).
 You might provide feedback on alternative ideas. 
 
-??? note "REVISION: Thu 05 Dec 2024 16:00"
+??? note "REVISION: Thu 05 Dec 2024 21:00"
     <pre>
-    REVISION: Thu 05 Dec 2024 16:00
+    REVISION: Thu 05 Dec 2024 21:00
     REVISION: Tue 03 Dec 2024 23:00
     REVISION: Tue 03 Dec 2024 16:00
     REVISION: Mon 02 Dec 2024 21:00

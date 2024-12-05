@@ -11,6 +11,8 @@ site_url:  https://vrtass.github.io/tester/
 nav:
   - Home: index.md
   - Examples: examples.md
+  - GitHub: https://github.com/vrtass/tester/
+  - WEB: https://vrtass.github.io/tester/
 
 theme:
   name:    material
@@ -48,7 +50,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
-      linenums: false
+      # linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
@@ -66,10 +68,9 @@ extra:
   custom_variable: "This is a custom variable from mkdocs.yml"
   github_url:      "https://github.com/vrtass/tester/"
   social:
-    - icon: simple/youtube
-      link: https://youtube.com/
-    - icon: simple/linkedin
-      link: https://linkedin.com/
+    - icon: simple/github
+      link: https://github.com/vrtass/tester/
+
   seo:
     description: >
             MkDocs for 
@@ -86,10 +87,10 @@ plugins:
   - search
   - macros
 
-# REVISI: Thu 05 Dec 2024 17:00
-# REVISI: Thu 05 Dec 2024 15:00
-# REVISI: Tue 03 Dec 2024 22:00
-# REVISI: Tue 03 Dec 2024 20:00
-# REVISI: Tue 03 Dec 2024 16:00
-# STARTX: Tue 03 Dec 2024 09:00
+# REVISION: Thu 05 Dec 2024 19:00
+# REVISION: Thu 05 Dec 2024 15:00
+# REVISION: Tue 03 Dec 2024 22:00
+# REVISION: Tue 03 Dec 2024 20:00
+# REVISION: Tue 03 Dec 2024 16:00
+# STARTING: Tue 03 Dec 2024 09:00
 
