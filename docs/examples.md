@@ -85,7 +85,7 @@ console.log("The concatenated string is:", result);
     massa, nec semper lorem quam in massa.
 
 
-Collapsible callout:
+## Collapsible callout
 
 ??? info "Collapsible callout"
 
@@ -128,12 +128,12 @@ sequenceDiagram
 
 ```
 
-!!! note "Revision:"
+??? info "REVISION: Thu 05 Dec 2024 17:00"
     <pre>
-    REVISI: Thu 05 Dec 2024 17:00
-    REVISI: Tue 03 Dec 2024 23:00
-    REVISI: Tue 03 Dec 2024 18:00
-    REVISI: Tue 03 Dec 2024 11:00
-    STARTX: Tue 03 Dec 2024 09:00
+    REVISION: Thu 05 Dec 2024 17:00
+    REVISION: Tue 03 Dec 2024 23:00
+    REVISION: Tue 03 Dec 2024 18:00
+    REVISION: Tue 03 Dec 2024 11:00
+    STARTING: Tue 03 Dec 2024 09:00
     </pre>
 

@@ -270,13 +270,13 @@ there has never been a claim that this is an original work,
 nor is it necessarily the best solution, and not for Scopus consumption :).
 You might provide feedback on alternative ideas. 
 
-!!! note "Revision:"
+??? note "REVISION: Thu 05 Dec 2024 16:00"
     <pre>
-    REVISI: Thu 05 Dec 2024 16:00
-    REVISI: Tue 03 Dec 2024 23:00
-    REVISI: Tue 03 Dec 2024 16:00
-    REVISI: Mon 02 Dec 2024 21:00
-    REVISI: Mon 02 Dec 2024 20:00
-    STARTX: Sun 01 Dec 2024 01:00
+    REVISION: Thu 05 Dec 2024 16:00
+    REVISION: Tue 03 Dec 2024 23:00
+    REVISION: Tue 03 Dec 2024 16:00
+    REVISION: Mon 02 Dec 2024 21:00
+    REVISION: Mon 02 Dec 2024 20:00
+    STARTING: Sun 01 Dec 2024 01:00
     </pre>
 
