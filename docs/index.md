@@ -3,10 +3,10 @@
 <img src="img/vrtass.jpg" style="float: left; margin: 3px 20px 3px 3px; width: 110px;">
 This [GitHub Page](https://pages.github.com/){:target="_blank"} is hosted at [GitHub.com]({{ github_url }}){:target="_blank"}.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org){:target="_blank"}.
-And remember, you are not {{ extra.seo.author }}!
+And remember, you are not {{ extra.author }}!
 
 <p style="text-align: right;">
---- {{ extra.seo.author }}
+--- {{ extra.author }}
 </p>
 <hr>
 
@@ -68,8 +68,8 @@ I am using user "vrtass" and creating a new repo "tester" in this example.
 
 ### Clone Repo on Your Debian
 
-I am using user "vrtass" and creating a new repo "tester" in this example.
-Remember, <span class="red-text">YOU ARE NOT VRTASS!</span>
+I am using user "vrtass" and creating a new repo "tester" in this example. Remember,
+<span class="red-text">YOU ARE NOT VRTASS!</span>
 
 ```test
 # You are not "vrtass:, replace GITHUB variable  with your own repo!
@@ -214,7 +214,9 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 
 ## File: mkdocs.yml 
 
-Replace file "mkdocs.yml" with the following.
+Replace file "mkdocs.yml" by copy/paste the following.
+You might want to replace variables like "copyright", "site_url", "logo", "favicon.ico", etc. because
+<span class="red-text">YOU ARE NOT VRTASS!</span>
 
 ```yaml
 {% include "configs/mkdocs.yml" %}
@@ -224,8 +226,9 @@ Replace file "mkdocs.yml" with the following.
 ## Create Some Dummy Files
 
 ```bash
+# Replace These Dummy Files
 mkdir -pv assets/ configs/ img/ static/
-touch examples.md assets/styles.css configs/{gitignore,mkdocs.yml} static/hello.c
+touch examples.md assets/styles.css img/{vrtass.jpg,favicon.ico} static/hello.c
 
 ```
  
@@ -247,12 +250,8 @@ mkdocs serve --dev-addr=0.0.0.0:8000
 
 ```
 
-* Checkit out at <https://vrtass.github.io/tester/>{:target="_blank"}, but your are not VRTASS!
-* Replace all the dummy files.
-
-<hr>
-
-
+* Checkit out at <https://vrtass.github.io/tester/>{:target="_blank"}, but
+  <span class="red-text">YOU ARE NOT VRTASS!</span>
 
 <hr>
 ## Links

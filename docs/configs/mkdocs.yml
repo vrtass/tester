@@ -1,21 +1,20 @@
 copyright: Copyright &copy; 2024-2024 VRTASS
 site_name: MkDocs for Debian on VirtualBox/UTM
+site_author: The Virtual Ass
+
 site_description: >
            MkDocs for 
            a Virtual Debian Guest 
            on VirtualBox.
 site_url:  https://vrtass.github.io/tester/
+
 nav:
   - Home: index.md
   - Examples: examples.md
 
 theme:
   name:    material
-  # font:    false
   font:
-    # text:  Merriweather Sans
-    # text:  Sans-serif
-    # text:  Arial
     text:  Verdana
     code:  Red Hat Mono
   logo:    img/vrtass.jpg
@@ -63,6 +62,7 @@ markdown_extensions:
       alternate_style: true
 
 extra:
+  author:          "The Virtual Ass"
   custom_variable: "This is a custom variable from mkdocs.yml"
   github_url:      "https://github.com/vrtass/tester/"
   social:
@@ -71,7 +71,6 @@ extra:
     - icon: simple/linkedin
       link: https://linkedin.com/
   seo:
-    author: "The Virtual Ass"
     description: >
             MkDocs for 
             a Virtual Debian Guest 
@@ -87,7 +86,7 @@ plugins:
   - search
   - macros
 
-# REVISI: Thu 05 Dec 2024 16:00
+# REVISI: Thu 05 Dec 2024 17:00
 # REVISI: Thu 05 Dec 2024 15:00
 # REVISI: Tue 03 Dec 2024 22:00
 # REVISI: Tue 03 Dec 2024 20:00

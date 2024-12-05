@@ -1,13 +1,7 @@
-# Poterant numina
+# Examples
 
-The value of the custom variable is: {{ custom_variable }}.
-
-## Obvia scopuloque dente vetus
-
-Lorem markdownum ferventi hunc Menoetae cantu miserabilis ictibus, sum nec
-sumpsisse vultu, qua. Magna spumisque Quas senectae olim Thoactes milia metuens,
-patent: orbem reliquit quendam, at. Quod sit in madefient finge haberet
-tantoque, vidit aevi.
+## Custom Variable
+   {{ custom_variable }}.
 
 > Gressu si fontibus Phrygios audire iussa tremensque regis. 
 > quaesitae innixa, rebus portenditur, adhuc
@@ -18,9 +12,7 @@ tantoque, vidit aevi.
     * Sub XYZZY
         * Sub Sub
 
-## Examples
-
-### Python
+## Python
 
 ```py title="add_numbers.py" 
 # Function to add two numbers
@@ -33,7 +25,7 @@ print('The sum is:', result)
 
 ```
 
-### Line Numbers
+## Line Numbers
 
 ```py title="add_numbers.py" linenums="1"
 # Function to add two numbers
@@ -46,7 +38,7 @@ print('The sum is:', result)
 
 ```
 
-### Highlights
+## Highlights
 
 ```js title="code-examples.md" linenums="1" hl_lines="2-4"
 // Function to concatenate two strings
@@ -60,7 +52,7 @@ console.log("The concatenated string is:", result);
 
 ```
 
-### Code Blocks in Content Tabs
+## Code Blocks in Content Tabs
 
 === "Python"
 
@@ -138,8 +130,10 @@ sequenceDiagram
 
 !!! note "Revision:"
     <pre>
+    REVISI: Thu 05 Dec 2024 17:00
     REVISI: Tue 03 Dec 2024 23:00
     REVISI: Tue 03 Dec 2024 18:00
     REVISI: Tue 03 Dec 2024 11:00
     STARTX: Tue 03 Dec 2024 09:00
     </pre>
+
