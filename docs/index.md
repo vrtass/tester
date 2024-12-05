@@ -165,7 +165,7 @@ tree
 Once activated, you should see the name of the virtual environment in your terminal prompt, e.g.
 **"(.virtualenvs) cbkadal@cbkadal:~/git/tester$ "**
 
-![Virtual Environment](img/venv.jpg){ width=95% }
+![Virtual Environment](img/mkdocs-new.jpg){ width=95% }
 
 
 ## Install MkDocs and additional MkDocs plugins
