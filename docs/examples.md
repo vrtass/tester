@@ -1,34 +1,36 @@
 # Examples
 
+## Image
+
+![VRTASS Logo](img/vrtass.jpg){: style="float: left; margin: 3px 20px 3px 3px; width: 110px;"}
 Examples are taken from Here, There, and Everywhere, including from:
 James Willett's YouTube channel.
 
-## Custom Variable
-   {{ custom_variable }}.
+## Admonitions
 
-> Gressu si fontibus Phrygios audire iussa tremensque regis. 
-> quaesitae innixa, rebus portenditur, adhuc
-> alii reges quam facto illud iuvenci. Fuerim nobiliumque, mota fratrum: dives
-> raptamque fuga inmensum movent nece faciemque non.
+!!! note note
+    note
 
-* XYZZY
-    * Sub XYZZY
-        * Sub Sub
+!!! success "More Admonitions"
+    abstract, bug, danger, example, failure, info, note, question, quote, success, tip, warning.
 
-## Python
+??? info "Collapsible Callout of Emojis"
+    :airplane: :alien: :anger: :anchor:
+    :angry: :astonished: :bat: :blush: :bone: :camel: :clap_tone1: :cry: :dizzy_face: 
+    :disappointed: :expressionless: :face_vomiting: :fearful: 
+    :flag_id: :flushed: :fork_and_knife: :grinning:
+    :grin: :heart_eyes: :innocent: :joy: :kissing: :kissing_closed_eyes:
+    :kissing_heart: :kissing_smiling_eyes: :laughing: :mask: :neutral_face: :ninja: :no_entry:
+    :no_mouth: :partying_face: :pensive: :rage: :relaxed:
+    :rofl: :sauropod: :scream: :simple-android: :sleeping: :sleepy: :slightly_smiling_face: 
+    :smile: :smirk: :sneezing_face: :star: :star_and_crescent:
+    :stuck_out_tongue: :stuck_out_tongue_closed_eyes:
+    :stuck_out_tongue_winking_eye: :sunglasses: :upside_down_face: :weary:
+    :yum: :zany_face:
 
-```py title="add_numbers.py" 
-# Function to add two numbers
-def add_two_numbers(num1, num2):
-    return num1 + num2
+## Code Blocks
 
-# Example usage
-result = add_two_numbers(5, 3)
-print('The sum is:', result)
-
-```
-
-## Line Numbers
+### Line Numbers
 
 ```py title="add_numbers.py" linenums="1"
 # Function to add two numbers
@@ -38,24 +40,33 @@ def add_two_numbers(num1, num2):
 # Example usage
 result = add_two_numbers(5, 3)
 print('The sum is:', result)
-
 ```
 
-## Highlights
+### Line Numbers and HighLight
 
-```js title="code-examples.md" linenums="1" hl_lines="2-4"
-// Function to concatenate two strings
-function concatenateStrings(str1, str2) {
-  return str1 + str2;
-}
+```py title="add_numbers.py" linenums="1" hl_lines="1-3"
+# Function to add two numbers
+def add_two_numbers(num1, num2):
+    return num1 + num2
 
-// Example usage
-const result = concatenateStrings("Hello, ", "World!");
-console.log("The concatenated string is:", result);
-
+# Example usage
+result = add_two_numbers(5, 3)
+print('The sum is:', result)
 ```
 
-## Code Blocks in Content Tabs
+### No Line Numbers
+
+```py title="add_numbers.py"
+# Function to add two numbers
+def add_two_numbers(num1, num2):
+    return num1 + num2
+
+# Example usage
+result = add_two_numbers(5, 3)
+print('The sum is:', result)
+```
+
+### Code Blocks in Content Tabs
 
 === "Python"
 
@@ -78,23 +89,38 @@ console.log("The concatenated string is:", result);
     main();
 
     ```
+=== "C"
 
-## Admonitions (aka Callouts)
+    ```c title="hello.c"
+    {% include "static/hello.c" %}
 
-!!! note "Title of the callout"
+    ```
+=== "Bash"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    ```bash
+    #!/bin/bash
+    echo "Hello World"
+
+    ```
+
+## Custom Variable
+   {{ custom_variable }}.
 
 
-## Collapsible callout
+## Block Quote Border
 
-??? info "Collapsible callout"
+> Gressu si fontibus Phrygios audire iussa tremensque regis. 
+> quaesitae innixa, rebus portenditur, adhuc
+> alii reges quam facto illud iuvenci. Fuerim nobiliumque, mota fratrum: dives
+> raptamque fuga inmensum movent nece faciemque non.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+## List
+* Level 1
+    * Level 2
+        * Level 3
+            * Level 4
+
+## Charts
 
 ### Flowcharts
 
@@ -124,15 +150,9 @@ sequenceDiagram
 
 ```
 
-### Include
-
-```c
-{% include "static/hello.c" %}
-
-```
-
-??? info "REVISION: Thu 05 Dec 2024 17:00"
+??? info "REVISION: Thu 05 Dec 2024 20:00"
     <pre>
+    REVISION: Thu 05 Dec 2024 20:00
     REVISION: Thu 05 Dec 2024 17:00
     REVISION: Tue 03 Dec 2024 23:00
     REVISION: Tue 03 Dec 2024 18:00
