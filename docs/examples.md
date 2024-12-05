@@ -3,8 +3,9 @@
 ## Image
 
 ![VRTASS Logo](img/vrtass.jpg){: style="float: left; margin: 3px 20px 3px 3px; width: 110px;"}
-Examples are taken from Here, There, and Everywhere, including from:
-James Willett's YouTube channel.
+Examples are shamelessly taken from Here, There, and Everywhere, including from:
+<https://github.com/james-willett/material-mkdocs-youtube-2024/>{:target="_blank"},
+<https://squidfunk.github.io/mkdocs-material/>{:target="_blank"}.
 
 ## Admonitions
 
@@ -68,14 +69,18 @@ print('The sum is:', result)
 
 ### Code Blocks in Content Tabs
 
-=== "Python"
+=== "Bash"
 
-    ```py
-    def main():
-        print("Hello world!")
+    ```bash
+    #!/bin/bash
+    echo "Hello World"
 
-    if __name__ == "__main__":
-        main()
+    ```
+
+=== "C"
+
+    ```c title="hello.c"
+    {% include "static/hello.c" %}
 
     ```
 
@@ -89,17 +94,15 @@ print('The sum is:', result)
     main();
 
     ```
-=== "C"
 
-    ```c title="hello.c"
-    {% include "static/hello.c" %}
+=== "Python"
 
-    ```
-=== "Bash"
+    ```py
+    def main():
+        print("Hello world!")
 
-    ```bash
-    #!/bin/bash
-    echo "Hello World"
+    if __name__ == "__main__":
+        main()
 
     ```
 
@@ -120,9 +123,9 @@ print('The sum is:', result)
         * Level 3
             * Level 4
 
-## Charts
+## Diagrams
 
-### Flowcharts
+### Flow Chart
 
 ```mermaid
 graph LR
@@ -134,7 +137,7 @@ graph LR
 
 ```
 
-### Sequence Diagrams
+### Sequence Diagram
 
 ```mermaid
 sequenceDiagram
@@ -150,9 +153,69 @@ sequenceDiagram
 
 ```
 
-??? info "REVISION: Thu 05 Dec 2024 20:00"
+### State Diagram
+
+``` mermaid
+stateDiagram-v2
+  state fork_state <<fork>>
+    [*] --> fork_state
+    fork_state --> State2
+    fork_state --> State3
+
+    state join_state <<join>>
+    State2 --> join_state
+    State3 --> join_state
+    join_state --> State4
+    State4 --> [*]
+```
+
+Class Diagram
+
+``` mermaid
+classDiagram
+  Person <|-- Student
+  Person <|-- Professor
+  Person : +String name
+  Person : +String phoneNumber
+  Person : +String emailAddress
+  Person: +purchaseParkingPass()
+  Address "1" <-- "0..1" Person:lives at
+  class Student{
+    +int studentNumber
+    +int averageMark
+    +isEligibleToEnrol()
+    +getSeminarsTaken()
+  }
+  class Professor{
+    +int salary
+  }
+  class Address{
+    +String street
+    +String city
+    +String state
+    +int postalCode
+    +String country
+    -validate()
+    +outputAsLabel()  
+  }
+```
+
+### Entity-Relationship Diagram
+
+``` mermaid
+erDiagram
+  CUSTOMER ||--o{ ORDER : places
+  ORDER ||--|{ LINE-ITEM : contains
+  LINE-ITEM {
+    string name
+    int pricePerUnit
+  }
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+
+??? info "REVISION: Thu 05 Dec 2024 21:00"
     <pre>
-    REVISION: Thu 05 Dec 2024 20:00
+    REVISION: Thu 05 Dec 2024 21:00
     REVISION: Thu 05 Dec 2024 17:00
     REVISION: Tue 03 Dec 2024 23:00
     REVISION: Tue 03 Dec 2024 18:00

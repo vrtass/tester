@@ -1,6 +1,6 @@
 # MkDocs for a Debian on VirtualBox/UTM
 
-<img src="img/vrtass.jpg" style="float: left; margin: 3px 20px 3px 3px; width: 110px;">
+![VRTASS Logo](img/vrtass.jpg){: style="float: left; margin: 3px 20px 3px 3px; width: 110px;"}
 This [GitHub Page](https://pages.github.com/){:target="_blank"} is hosted at [GitHub.com]({{ github_url }}){:target="_blank"}.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org){:target="_blank"}.
 And remember, you are not {{ extra.author }}!
@@ -270,9 +270,9 @@ there has never been a claim that this is an original work,
 nor is it necessarily the best solution, and not for Scopus consumption :).
 You might provide feedback on alternative ideas. 
 
-??? note "REVISION: Thu 05 Dec 2024 16:00"
+??? note "REVISION: Thu 05 Dec 2024 21:00"
     <pre>
-    REVISION: Thu 05 Dec 2024 16:00
+    REVISION: Thu 05 Dec 2024 21:00
     REVISION: Tue 03 Dec 2024 23:00
     REVISION: Tue 03 Dec 2024 16:00
     REVISION: Mon 02 Dec 2024 21:00
